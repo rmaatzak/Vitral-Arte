@@ -33,7 +33,7 @@
 
 /* CABEÇALHO UM */
 
-.email{
+ header .email{
     font-family: open;
     color: white;
     font-size: 22px;
@@ -42,7 +42,7 @@
     font-weight: 350;
 }
 
-.azul{
+#azul{
     display: flex;
     align-items: center;
     height: 53.4px;
@@ -52,7 +52,7 @@
 
 /* CABEÇALHO DOIS */
 
-.menu{
+header .menu{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -138,7 +138,7 @@ h3{
     margin-top: 150px;
 }
 
-.textoos{
+#textoos{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -258,7 +258,207 @@ margin-left: 20px;
 
     .people{
         height: 555px;
-        margin: 5px 20px 5px 20px;
+        margin: 0px 0px 30px 0px;
         border-radius: 10px;
     }
     
+    h4{
+       
+        font-family: poppins;
+        font-size: 20px;
+    }
+
+    .Tequipe{
+        font-family: robotoR;
+        line-height: 15px;
+        margin-bottom: 30px;
+    }
+
+    .texxtto{
+        font-family: open;
+        font-size: 20px;
+        text-align: center;
+        width: 900px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin: 80px 10px 0px 300px ;
+        }
+
+
+        /* Parte da mensagem */
+
+        .endereco{
+            width: 318px;
+            height: 330px;
+            border: #8CA9CE solid 3px;
+            border-radius: 10px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 40px;
+        }
+
+        .neg{
+            font-family: robotoB;
+            font-size: 25px;
+        }
+
+        .nor{
+            font-family: robotoR;
+            font-size: 25px;
+            text-align: center;
+            width: 250px;
+        }
+
+        .nome{
+            height: 53px;
+            width: 280px;
+            background-color: #E5E5E5;
+            color: black;
+            border-radius: 15px;
+            padding-left: 20px;
+            font-family: robotoR;
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 15px;
+            
+        }
+
+        main .email{
+            height: 53px;
+            width: 280px;
+            background-color: #E5E5E5;
+            color:black;
+            border-radius: 15px;
+            padding-left: 20px;
+            font-family: robotoR;
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 15px;
+            margin-left: 10px;
+        }
+
+
+        
+        .assunto{
+            height: 53px;
+            width: 589px;
+            background-color: #E5E5E5 ;
+            color: black;
+            border-radius: 15px;
+            padding-left: 20px;
+            font-family: robotoR;
+            margin-left: 5px;
+            font-size: 20px;
+            font-weight: 400; 
+            margin-bottom: 15px;
+        }
+        input::placeholder{
+            color: #C1C1C1
+        }
+
+        textarea::placeholder{
+            color: #C1C1C1
+        }
+        .mensagem{
+            height: 130px;
+            width: 587px;
+            background-color: #E5E5E5;
+            color:black;
+            border-radius: 15px;
+            padding-left: 20px;
+            font-family: robotoR;
+            font-size: 20px;
+            font-weight: 400; 
+            margin-bottom:15px ;
+       
+        }
+
+        button{
+            height: 50px;
+            width: 260px;
+            background-color: #106EEA;
+            color: white;
+            border-radius: 15px;
+            font-family: robotoR;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+
+        .textbox{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: 250px;
+        }
+
+        .tre{
+            display: flex;
+            align-items: center;
+            justify-content: center;  
+          
+        }
+
+        .inscricao{
+            display: flex;
+          align-items: center;
+          justify-content: center;
+         margin-top: 100px;
+        }
+
+
+        /* FOOTER */
+
+        footer{
+            background-color: #1150a3;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        
+
+        footer .menu{
+          display: flex;
+          flex-direction: column;  
+          font-family: open;
+          font-size: 20px;
+          text-align: center;
+        }
+
+        footer section{
+            display: flex;
+        
+        }
+
+        footer a{
+            color: white;
+        }
+        
+        footer  h4{
+            font-family: open;
+            font-size: 25px;
+            color: white;
+        }
+
+        .Uicone{
+            height: 50px;
+        }
+
+        .Sicone{
+            margin-top: 30px;
+        }
+
+        footer .menu{
+          margin-right: 650px;
+        }
+
+
+        html{
+            scroll-behavior: smooth;
+        }
